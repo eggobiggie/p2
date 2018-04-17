@@ -4,3 +4,19 @@ Blue Sapphire: #19647E
 Light Sea Green: #28AFB0
 Sil De Grain Yellow: #F4D35E
 Big Foot Feet: #EE964B */
+
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.logo-container {
+    background-color: #28AFB0;
+    width: 100%;
+    height: 100%;
+}
+
+/* .logo {
+    width: 30%;
+} */
+
