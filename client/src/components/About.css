@@ -12,11 +12,20 @@ body {
 
 .logo-container {
     background-color: #28AFB0;
-    width: 100%;
-    height: 100%;
+    margin-bottom: -20px;
 }
 
 /* .logo {
     width: 30%;
 } */
+
+.mia-face {
+    width: 30%;
+}
+
+.about-container {
+    background-color: #19647E;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
 
