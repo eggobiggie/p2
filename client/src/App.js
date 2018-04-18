@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { LogoHeader, About, PortfolioCards } from "./components";
+import { LogoHeader, About, PortfolioCards, Contact } from "./components";
 
 class App extends Component {
   render() {
@@ -8,6 +8,7 @@ class App extends Component {
         <LogoHeader />
         <About />
         <PortfolioCards />
+        <Contact />
       </div>
     );
   }

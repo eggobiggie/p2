@@ -5,43 +5,52 @@ import Cryptid from "./images/cryptidcollaborator.JPG";
 import Giftastic from "./images/giftastic.JPG";
 import Hangman from "./images/hangmangame.JPG";
 import Train from "./images/trainscheduler.JPG";
+import Portfolio from "./images/portfolio.png";
 import { Card, CardTitle } from "react-materialize";
 
 export const PortfolioCards = props => (
     <div className="portfolio-container">
         <div className="row">
+            <div className="col s12">
+                {/* <h1 className="portfolio-text center">Portfolio</h1> */}
+                <div className="center">
+                    <img src={Portfolio} alt="Portfolio Logo" className="portfolio-text"></img>
+                </div>
+            </div>
+        </div>
+        <div className="row">
             <div className="col s4">
-                <Card className='small'
+                <Card className='medium'
                     header={<CardTitle image={ Train }></CardTitle>}
-                    actions={[<a href='https://github.com/eggobiggie/train-scheduler' target="_blank">Github</a>]}>
-                    Train Scheduler uses firebase to save train data and javascript to calculate train arrival times.
+                    actions={[<a href='https://github.com/eggobiggie/train-scheduler' target="_blank" rel="noopener noreferrer">Github</a>]}>
+                    <p className="card-description">Train Scheduler uses firebase to save train data and javascript to calculate train arrival times.</p>
                 </Card>
             </div>
             <div className="col s4">
-                <Card className='small'
+                <Card className='medium'
                     header={<CardTitle image={ Giftastic }></CardTitle>}
-                    actions={[<a href='https://github.com/eggobiggie/giftastic' target="_blank">Github</a>]}>
+                    actions={[<a href='https://github.com/eggobiggie/giftastic' target="_blank" rel="noopener noreferrer">Github</a>]}>
                     Giftastic allows users to click on buttons to generate themed gifs from the giphy API. Users can also add their own buttons
                 </Card>
             </div>
             <div className="col s4">
-                <Card className='small'
+                <Card className='medium'
                     header={<CardTitle image={ Burger }></CardTitle>}
-                    actions={[<a href='https://github.com/eggobiggie/its-burger-time' target="_blank">Github</a>]}>
+                    actions={[<a href='https://github.com/eggobiggie/its-burger-time' target="_blank" rel="noopener noreferrer">Github</a>]}>
                     It's Burger Time is an app that utilizes Node.js and Express along with a mySQL database to save and update different types of burgers
                 </Card>
             </div>
             <div className="col s4">
-                <Card className='small'
+                <Card className='medium'
                     header={<CardTitle image={ Cryptid }></CardTitle>}
-                    actions={[<a href='https://github.com/eggobiggie/cryptid-collaborator' target="_blank">Github</a>]}>
+                    actions={[<a href='https://github.com/eggobiggie/cryptid-collaborator' target="_blank" rel="noopener noreferrer">Github</a>]}>
                     Cryptid Collaborator surveys users to match them with a cryptid by using Node.js and Express.
                 </Card>
             </div>
             <div className="col s4">
-                <Card className='small'
+                <Card className='medium'
                     header={<CardTitle image={ Hangman }></CardTitle>}
-                    actions={[<a href='https://github.com/eggobiggie/Hangman-Game' target="_blank">Github</a>]}>
+                    actions={[<a href='https://github.com/eggobiggie/Hangman-Game' target="_blank" rel="noopener noreferrer">Github</a>]}>
                     A JavaScript based hangman game with a Bob's Burgers theme
                 </Card>
             </div>
