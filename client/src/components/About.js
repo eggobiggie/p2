@@ -25,8 +25,7 @@ export const About = props => (
                 <p className="description">I strive to bring fun, creativity, and hard work into everything I do. I studied animation at the Savannah College of Art and Design, and I recieved my BFA in 2010. I have since included my art background into a variety of environments. Now that I have discovered coding, I spend much of my time finding ways to mix both code and art into anything I can. I live in Denver with my three cats where I draw fun pictures, create embroidery, and, of course, code on a regular basis.</p>
                 </div>
             </div>
-            <div className="row">
-                
+            <div className="row">    
             </div>
         </div>
     </div>
