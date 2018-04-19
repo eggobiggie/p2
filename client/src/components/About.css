@@ -13,6 +13,7 @@ body {
 .logo-container {
     background-color: #28AFB0;
     margin-bottom: -20px;
+    width: 100vw;
 }
 
 .mia-face {
@@ -83,6 +84,38 @@ body {
 
 .contact-corner {
     margin-top: -235px;
+}
+
+@media only screen and (max-width: 600px)  {
+    .logo {
+        width: 70%;
+        margin-right: 10px;
+    }
+    .mia-face {
+        width: 90%;
+        margin-left: 15px;
+        margin-bottom: 20px;
+    }
+    .portfolio-text {
+        width: 90%;
+    }
+    .hello-text {
+        width: 100%;
+    }
+    .contact-text {
+        width: 90%;
+    }
+    .contact-corner {
+        width: 90%
+    }
+    .contact-info {
+        font-size: 12px;
+        line-height: 2;
+    }
+    .contact-info-panel {
+        margin-top: -80px;
+    }
+
 }
 
 
