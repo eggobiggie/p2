@@ -73,6 +73,8 @@ body {
     font-size: 25px;
     color:#F4D35E;
     margin-top: -20px;
+    z-index: 1;
+    position: relative;
 }
 
 .contact-info-panel {
@@ -81,6 +83,8 @@ body {
 
 .contact-corner {
     margin-top: -235px;
+    z-index: 0;
+    position: abslute;
 }
 
 
