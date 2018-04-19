@@ -15,7 +15,7 @@ export const Contact = props => (
     <div className="row">
       <div className="col s12">
         <div className="center contact-info-panel">
-          <p className="contact-info">Have a look at my <a href="https://www.linkedin.com/in/mia-crandell/" target="_blank">Linked In!</a></p>
+          <p className="contact-info">Have a look at my <a href="https://www.linkedin.com/in/mia-crandell/" target="_blank">LinkedIn!</a></p>
         </div>
         <div className="center">
           <p className="contact-info">Take a gander at my <a href="https://github.com/eggobiggie" target="_blank">Github!</a></p>
