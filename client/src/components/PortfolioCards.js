@@ -6,6 +6,7 @@ import Giftastic from "./images/giftastic.JPG";
 import Hangman from "./images/hangmangame.JPG";
 import Train from "./images/trainscheduler.JPG";
 import Portfolio from "./images/portfolio.png";
+import MoneyHoney from "./images/moneyhoney.jpg";
 import { Card, CardTitle } from "react-materialize";
 
 export const PortfolioCards = props => (
@@ -52,6 +53,13 @@ export const PortfolioCards = props => (
                     header={<CardTitle image={ Hangman }></CardTitle>}
                     actions={[<a href='https://github.com/eggobiggie/Hangman-Game' target="_blank" rel="noopener noreferrer">Github</a>]}>
                     A JavaScript based hangman game with a Bob's Burgers theme
+                </Card>
+            </div>
+            <div className="col s4">
+                <Card className='medium'
+                    header={<CardTitle image={ MoneyHoney }></CardTitle>}
+                    actions={[<a href='https://github.com/chaucees/moneyhoney' target="_blank" rel="noopener noreferrer">Github</a>]}>
+                    A full stack financial app that allows users to keep track of budgets
                 </Card>
             </div>
         </div>
