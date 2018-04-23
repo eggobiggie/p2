@@ -44,7 +44,7 @@ export const PortfolioCards = props => (
                 <Card className='medium'
                     header={<CardTitle image={ Cryptid }></CardTitle>}
                     actions={[<a href='https://github.com/eggobiggie/cryptid-collaborator' target="_blank" rel="noopener noreferrer">Github</a>]}>
-                    Cryptid Collaborator surveys users to match them with a cryptid by using Node.js and Express.
+                    Cryptid Collaborator surveys users to match them with a cryptid by using Node.js, Express, and JavaScript.
                 </Card>
             </div>
             <div className="col m4 s12">
